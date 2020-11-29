@@ -1,0 +1,22 @@
+.section-about {
+    background-color: $color-grey-light;
+    padding: 20rem 0;
+    margin-top: -15vh;
+}
+
+
+.section-animated {
+    background: url(../images/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    padding-top: 5vh;
+  }
+
+  
+.section-card {
+    background-color: $color-grey-light;
+    padding: 20rem 0 20rem 0;
+    padding-top: 10vh;
+}

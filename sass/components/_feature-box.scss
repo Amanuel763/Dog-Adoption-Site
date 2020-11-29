@@ -1,0 +1,50 @@
+.feature-box{
+    background-image: linear-gradient(to right top,
+    rgba($color-box, 0.9),
+    rgba($color-box-2, 0.4));
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-dark, 0.15);
+    transition: transform .3s;
+
+
+
+
+    &__icon{
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+        background-image: linear-gradient(to left bottom,
+        rgba($color-primary, 0.9),
+        rgba($color-primary-dark, 0.4));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &__text {
+        color: $color-dark;
+    }
+}
+
+
+
+
+
+
+.feature-position-gear{
+    margin-top: 50px; 
+}
+
+.feature-position-alarm{
+    margin-top: 140px;
+}
+
+.feature-position-home{
+    margin-top: 230px;
+}
+
+.feature-position-heart{
+    margin-top: 320px;
+}
